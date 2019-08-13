@@ -77,21 +77,15 @@
   <center>
     <div>
       <input type="text" id="myVal" placeholder="Enter a website">
-      <select id="audience" name="locality">  </select>
       <input name="Submit"  type="submit" id="update_chart"  text="Submit">
     </div>
   </center>
 
-  <script src="dropdown.js"></script>
+  <div id="chart"></div>
 
-
-  <div class="row">
-    <div class="column"><div id="chart"></div></div>
-    <div class="column"><div id="chart_2"></div>
-  </div> 
 
   <script src="app.js"></script>  
-  <script src="chart_2.js"></script>
+
 
   
   
